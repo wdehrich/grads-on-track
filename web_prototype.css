@@ -1,0 +1,51 @@
+/* Login Page */
+header {
+	height: 3em;
+	position: relative;
+	top: 4em;
+	color: #8080ff;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.std-style {
+	color: #8080ff;
+	position: relative;
+	top: 3em;
+	left: 10em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+input[type=text] {
+	width: 40%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid black;
+}
+
+
+/* My Applications */
+
+/* My Scores */
+
+#view {
+	position: relative;
+	bottom: 1em;
+}
+
+#edit{
+}
+
+
+.big-btn {
+}
+
+.v-e {
+	position: relative;
+	right: 20em;
+	bottom: 5em;
+}
+
+.sml-btn

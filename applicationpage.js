@@ -1,3 +1,4 @@
+var editflag = false;
 function viewact(){
 	document.getElementById("Edit").style.color = "black";
 	document.getElementById("Edit").style.backgroundColor = "white";

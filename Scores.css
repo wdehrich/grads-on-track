@@ -1,32 +1,19 @@
-/* My Scores */
 
-#Title {
+#centeredTitle {
   text-align: center;
 }
 
-.word-font {
-	color: black
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 14px;	
+table{
+	width: 10px;
 }
 
-.row {
-	position: relative;
-	left: 23em;
-	bottom: 7em;
+td {
+    text-align: center;
 }
 
-.std-indent {
-	position: relative;
-	left: 19px;
-}
 
-#disabledInput {
-	width: 5%;
-}
-
-.std-style {
-	position: relative;
-	bottom: 7em;
-	left: 27em;
+.blank_row
+{
+    height: 20px !important; 
+    background-color: #E1F1F7;
 }

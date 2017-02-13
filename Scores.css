@@ -1,0 +1,19 @@
+
+#centeredTitle {
+  text-align: center;
+}
+
+table{
+	width: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+
+.blank_row
+{
+    height: 20px !important; 
+    background-color: #E1F1F7;
+}

@@ -21,7 +21,7 @@ body{
 .header h2{
 	height:44px; 
 	line-height:44px; 
-	color:purple; 
+	color:#4E2A84; 
 	text-align:center
 }
 .login{
@@ -30,7 +30,7 @@ body{
 .login span.un{
 	width:10%; 
 	text-align:center; 
-	color:purple; 
+	color:#4E2A84; 
 	border-radius:3px 0 0 3px
 	}
 .text{
@@ -49,19 +49,19 @@ body{
 	background:white;
 }
 .textbox{
-	border:2px solid purple;
+	border:2px solid #4E2A84;
 }
 .text:focus {
-	background:lightpink;
+	background: LightCyan;
 }
 .btn{
 	height:40px; 
 	border:none; 
-	background:lightpink; 
+	background:#4E2A84; 
 	width:50%; 
 	outline:none; 
 	font-family: 'Source Sans Pro', sans-serif; 
-	font-size:20px; 
+	font-size:25px; 
 	font-weight:bold; 
 	color:white; 
 	border-bottom:solid 3px #093; 
@@ -70,7 +70,7 @@ body{
 	cursor:pointer
 }
 .btn:hover{
-	background-color: #f600ff;
+	background-color: 	#9400D3;
 
 }
 .btn:active{
@@ -89,10 +89,10 @@ ul li{
 .ch{
 	display:inline-block; 
 	width:50%; 
-	color:purple;
+	color: #4E2A84;
 }
 .ch a{
-	color:purple; 
+	color: #4E2A84; 
 	text-decoration:none
 }
 .ch:nth-child(2){

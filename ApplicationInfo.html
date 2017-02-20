@@ -42,6 +42,19 @@ http://www.w3schools.com/bootstrap/bootstrap_navbar.asp
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
+	<!-- For the date picker -->
+	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+	<link rel="stylesheet" href="datepicker.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+	
 </head>
 
 <body>
@@ -78,7 +91,7 @@ http://www.w3schools.com/bootstrap/bootstrap_navbar.asp
     <div class="form-group">
       <label class="control-label col-sm-2">Application Deadline:</label>
       <div class="col-sm-10">          
-        <input class="form-control" placeholder="Enter application deadline">
+        <input class="form-control" placeholder="Enter application deadline" type="text" id="datepicker">
       </div>
     </div>
 		    <div class="form-group">
@@ -141,7 +154,9 @@ http://www.w3schools.com/bootstrap/bootstrap_navbar.asp
     </div>
   </form>
 </div>
-
+<div>
+<p>Date: <input type="text" id="datepicker"></p>
+</div>
 </body>
 
 </html>

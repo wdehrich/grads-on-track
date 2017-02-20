@@ -3,3 +3,7 @@
 	background-image: none;
 	border-color: purple;
 }
+
+body {
+	font: 15px Georgia, sans-serif;
+}

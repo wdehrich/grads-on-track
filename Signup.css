@@ -1,7 +1,7 @@
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
 *{margin:0; padding:0}
-body{ 
+body {
 	font-family: 'Source Sans Pro', sans-serif
 }
 .form{
@@ -24,41 +24,11 @@ body{
 	color:purple; 
 	text-align:center
 }
-.login{
-	padding:0 20px
-}
-.login span.un{
-	width:10%; 
-	text-align:center; 
-	color:purple; 
-	border-radius:3px 0 0 3px
-	}
-.text{
-	background:white; 
-	width:90%; 
-	border-radius:0 3px 3px 0; 
-	border:none; 
-	outline:none; 
-	color:black; 
-	font-family: 'Source Sans Pro', sans-serif} 
-.text,.login span.un{
-	display:inline-block; 
-	vertical-align:top; 
-	height:40px; 
-	line-height:40px; 
-	background:white;
-}
-.textbox{
-	border:2px solid purple;
-}
-.text:focus {
-	background:lightpink;
-}
 .btn{
 	height:40px; 
 	border:none; 
-	background:lightpink; 
-	width:50%; 
+	background:#4E2A84;
+	width:20%; 
 	outline:none; 
 	font-family: 'Source Sans Pro', sans-serif; 
 	font-size:20px; 
@@ -70,82 +40,10 @@ body{
 	cursor:pointer
 }
 .btn:hover{
-	background-color: #f600ff;
+	background-color: 	#9400D3;
+	color:white;
 
 }
 .btn:active{
 	transform: translateY(4px);
 }
-ul li{
-	height:40px; 
-	margin:15px 0; 
-	list-style:none}
-
-.span{
-	display:table; 
-	width:100%; 
-	font-size:14px;
-}
-.ch{
-	display:inline-block; 
-	width:50%; 
-	color:purple;
-}
-.ch a{
-	color:purple; 
-	text-decoration:none
-}
-.ch:nth-child(2){
-	text-align:right
-}
-.ch a:hover{
-	text-decoration: underline;
-}
-.ch a:active{
-	text-decoration: underline;
-	transform: translateY(2px);
-}
-/*social*/
-.social{
-	height:30px; 
-	line-height:30px; 
-	display:table; 
-	width:100%;
-}
-.social div{
-	display:inline-block; 
-	width:42%; 
-	color:#eee; 
-	font-size:12px; 
-	text-align:center; 
-	border-radius:3px
-}
-.social div i.fa{
-	font-size:16px; 
-	line-height:30px
-}
-.fb{
-	background:#3B5A9A;
-	 border-bottom:solid 3px #036
-	 } 
-.tw{
-	background:#2CA8D2; 
-	margin-left:16%; 
-	border-bottom:solid 3px #3399CC
-}
-.fb:active{
-	transform: translateY(4px);
-}
-.tw:active{
-	transform: translateY(4px);
-}
-@media(max-width:480px){ .form{width:100%}}
-.backto{background:#09C}
-.backto>a{padding:16px; 
-	margin-bottom:10px; 
-	display:block; 
-	text-align:center; 
-	text-decoration:none; 
-	font-size:16px; 
-	color:#fff}
-

@@ -4,6 +4,9 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif
 }
+label{
+	color:#4E2A84;
+}
 .form{
 	width:400px; 
 	margin:50px auto; 
@@ -28,7 +31,7 @@ body {
 	height:40px; 
 	border:none; 
 	background:#4E2A84;
-	width:13%; 
+	width:9%; 
 	outline:none; 
 	font-family: 'Source Sans Pro', sans-serif; 
 	font-size:20px; 

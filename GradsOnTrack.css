@@ -1,9 +1,11 @@
 .navbar {
-	background-color: purple;
+	background-color: green;
 	background-image: none;
 	border-color: purple;
 }
 
 body {
-	font: 15px Georgia, sans-serif;
+	font-size: 14px;
+	/*font-family: Georgia;*/
+	font-style: sans-serif;
 }

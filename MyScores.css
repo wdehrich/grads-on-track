@@ -16,3 +16,7 @@
 .col-sm-offset-1 col-sm-1 {
 	text-align-last: right;
 }
+
+form td {
+	width: 50%;
+}

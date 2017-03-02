@@ -16,13 +16,15 @@ body{
 .header h1{
 	margin-top: 50px;
 	font-family: Impact, Charcoal, sans-serif;
-	font-size: 300%;
+	font-size: 65px;
+	font-weight: normal;
 }
 .header h2{
 	height:50px; 
 	line-height:44px; 
-	font-size: 30px;
-	color:#4E2A84; 
+	font-weight: normal;
+	font-size: 40px;
+	color:green; 
 	text-align:center;
 }
 .login{
@@ -31,7 +33,7 @@ body{
 .login span.un{
 	width:10%; 
 	text-align:center; 
-	color:#4E2A84; 
+	color:green; 
 	border-radius:3px 0 0 3px
 	}
 .text{
@@ -50,7 +52,7 @@ body{
 	background:white;
 }
 .textbox{
-	border:2px solid #4E2A84;
+	border:2px solid green;
 }
 .text:focus {
 	background: LightCyan;
@@ -58,20 +60,20 @@ body{
 .btn{
 	height:40px; 
 	border:none; 
-	background:#4E2A84; 
+	background:green; 
 	width:50%; 
 	outline:none; 
 	font-family: 'Source Sans Pro', sans-serif; 
 	font-size:25px; 
 	font-weight:bold; 
-	color:white; 
+	color:#EFD469; 
 	border-bottom:solid 3px #093; 
 	border-radius:3px; 
 	border:1px solid white;
 	cursor:pointer
 }
 .btn:hover{
-	background-color: 	#9400D3;
+	background-color: 	green;
 	color:white;
 
 }
